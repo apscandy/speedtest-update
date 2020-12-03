@@ -18,10 +18,10 @@ def job():
 # --- Public IP address ---
     public_ip = get("https://api.ipify.org").text
 # --- Email login details ---
-    EmailAddressSender = 'andrews.python.app@gmail.com'
-    EmailPassword = 'Wolf3636'
+    EmailAddressSender = ''
+    EmailPassword = ''
 # --- Email list ---
-    EmailAddressReceiver = "andrewclarke.aron@gmail.com"
+    EmailAddressReceiver = ""
 # --- Email message ---
     msg = EmailMessage()
     msg['Subject'] = f'Speedtest results for: {date}'
